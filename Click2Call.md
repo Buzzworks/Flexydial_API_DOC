@@ -15,7 +15,7 @@ Content- type: ‘application/json’
 
 **AUTHORIZATION**:
 
-[Click here for authentication API Doc](Authentication.md)
+[Click here for authentication API Doc](https://github.com/Buzzworks/Flexydial_API_DOC/blob/main/Authentication.md)
 
 **API Key:** tokenAuth
 
