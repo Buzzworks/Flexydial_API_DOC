@@ -6,6 +6,8 @@
 
 #### Parameters
 
+Content- type: ‘application/json’
+
 ```json
 {
   "username": "string",
