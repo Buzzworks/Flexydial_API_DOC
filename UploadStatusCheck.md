@@ -1,6 +1,6 @@
 # Lead Insert/Update Status Check API
 
-### `POST /api/bulkphonebookupload/status/<operation_status_reference_id>/ `
+### `POST /api/bulkphonebookupload/status/<job_id>/ `
 
 #### Parameters
 
