@@ -1,5 +1,5 @@
 # Click to Call API
-[Deprecated Click here for latest](https://github.com/Buzzworks/Flexydial_API_DOC/blob/main/Click2Call_v2.md)
+
 ### `POST /api/click-to-call/`
 
 #### Parameters
@@ -8,8 +8,14 @@ Content- type: ‘application/json’
 
 ```json
 {
-  "customer_number": "Customer Number",
-  "agent_number": "Agent Number"
+        "agent_number": "agent_number_value",
+        "customer_number": "customer_number_value",
+        "origination": "agent",
+        "campaign": "campaign_value",
+        "raw_data": {
+            "customer_info:customer_id": "12345",
+            "customer_info:customer_name": "John Doe"
+        }
 }
 ```
 
@@ -35,7 +41,7 @@ Token-based authentication with required prefix "**Token**"
 
 ```json
 {
-    "token": "Call initiated successfully"
+    "message": "Call initiated successfully"
 }
 ```
 
