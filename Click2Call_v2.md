@@ -8,11 +8,11 @@ Content- type: ‘application/json’
 
 ```json
 {
-        "agent_number": "agent_number_value",
-        "customer_number": "customer_number_value",
-        "origination": "agent",
+        "agent_number": "agent_number",
+        "customer_number": "customer_number",
+        "origination": "agent", //expected values("agent","customer")
         "campaign": "campaign_value",
-        "raw_data": {
+        "raw_data": { //CRM DATA for reports and webhook purpose
             "customer_info:customer_id": "12345",
             "customer_info:customer_name": "John Doe"
         }
